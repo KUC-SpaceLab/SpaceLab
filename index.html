@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SpaceLab</title>
+
+    <link rel="icon" href="favicon.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Overpass+Mono:400,700|Overpass:300,700" rel="stylesheet">    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <!-- Menubar -->
+    <div class="menubar">
+      <button onclick="open(location, '_self').close();" title="Close Tab" aria-label="Close Tab"></button>
+      <button></button>
+      <button onclick="window.open(location)" title="New Tab" aria-label="New Tab"></button>
+    </div>
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+      <ul>
+        <li>
+          <a href="#about" class="active"><span>About</span></a>
+        </li>
+        <li>
+          <a href="#meetups"><span>Meetups</span></a>
+        </li>
+        <li>
+            <a href="#forum"><span>Forum</span></a>
+          </li>
+        <li>
+          <a href="#sign-up"><span>Contact</span></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- end Sidebar -->
+
+    <!-- Main Content -->
+    <main>
+
+      <!-- Section 1: Home -->
+      <header id="about" class="section">
+        <h1>
+          <img src="images/logo.png" srcset="images/frontstack-logo.svg 2x" alt="SpaceLab logo" class="logo">
+          <span class="sr-only">Spacelab</span>
+        </h1>
+
+        <pre class="tagline">
+<span class="tag">&lt;SpaceLab</span> <span class="attr">class=</span><span class="val">&quot;io&quot;</span><span class="tag">&gt;</span>
+ 
+<span class="tag">&lt;p&gt;</span>Knutsford University College Computer Science Club <span class="tag">(SpaceLab)</span> is a community of
+determined studentsinterested in sharing knowledge, skills, support, training and the empowerment of its members in the Technological Space 
+It is a community built on the foundation of technological excellence and developer awareness. As its name implies, it’s all about giving 
+students the space and information to develop tools that impacts the society Positively.<span class="tag">&lt;/p&gt;</span>
+
+<span class="tag">&lt;p&gt;</span>Our mission is to effectively grow the developer ecosystem, stem world-class developers through the community
+by creating exposure to technologies, and help more of its members build expert developer skills.<span class="tag">&lt;/p&gt;</span>
+
+<span class="tag">&lt;p&gt;</span>Our vision is to become a world-class engineering community. A community oriented technological 
+organization focused on developing tech talents with a global reach.<span class="tag">&lt;/p&gt;</span>
+
+<span class="tag">&lt;/SpaceLab&gt;</span>
+        </pre>
+      </header>
+
+      <!-- Section 2: Meetups -->
+      <section id="meetups" class="section">
+        <h2>Meetups</h2>
+        <ul>
+          <li>
+            <h3>Techy Tuesday - Discussion about new and cool Tech</h3>
+            <p>Join us Every Tuesday to know about some of the coolest and latest technologies as well as the chance to meeet and interect with top and experienced developers.</p>
+            <p><strong>Time:</strong> 11:30am - 1:00pm</p>
+            <p><strong>Location:</strong> The Space, Computer-Lab, Knustsford University</p>
+            <p><strong>Date:</strong> 28th October, 2017</p>
+            <br>
+            <a href="https://api.whatsapp.com/send?phone=233548797248&text=I'm%20interested%20in%20attending%20SpaceLab's%20Techy%20Tuesday." class="button">I am Interested</a>
+          </li>
+
+          <br><br>
+
+          <li>
+            <h3>Code Friday - Hands on Coding</h3>
+            <p>We meeet every friday to build real world applications where we break into seesions which focuses on the current fron-end and backend Technologies to equid ourselves.</p>
+            <p><strong>Time:</strong> 12:00am - 2:00pm</p>
+            <p><strong>Location:</strong> The Space, Computer-Lab, Knustsford University</p>
+            <p><strong>Date:</strong> 28th October, 2017</p>
+            <br>
+            <a href="https://api.whatsapp.com/send?phone=233548797248&text=I'm%20interested%20in%20attending%20SpaceLab's%20Code%20Friday." class="button">I am Interested</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Section 3: Forum -->
+      <section id="forum" class="section">
+          <h2>Forum</h2>
+          <p>The SpaceLab Forum is a place for all members and non-members of the community to work together and support each other.</p>
+          <br>
+          <a href="#" class="button">Checkout the Forum</a>
+        </section>
+
+
+      <!-- Section 4: Contact -->
+      <section id="sign-up" class="section">
+        <h2>Contact Us</h2>
+        <p>Do you want to know how you can be part or sponsor any of our meetups? You can know by clicking the button below.</p>
+        <br>
+        <a href="https://api.whatsapp.com/send?phone=233548797248" class="button">Contact Us</a>
+      </section>
+      
+    </main>
+    <!-- end Main Content -->
+
+    <!-- Footer -->
+    <footer>
+      <span>Built with HTML/CSS/JS</span>
+      &nbsp;
+      <a href="https://github.com/KUC-SpaceLab/" target="_blank">Check us out on GitHub</a>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

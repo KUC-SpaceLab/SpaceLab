@@ -1,0 +1,12 @@
+{
+  "name": "SpaceLab",
+  "version": "1.0.0",
+  "description": "Website for the SpaceLab community. Original version by Frontstack",
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0"
+  }
+}
